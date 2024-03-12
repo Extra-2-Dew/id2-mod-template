@@ -32,7 +32,7 @@ This is a template for building Ittle Dew 2 mods. It has all the necessary files
 - `Plugin.cs` is the initialization class. BepInEx will first run this class to initialize your mod
 
 ## Configuring Your Mod
-- Edit the `ID2ModTemplate.csproj` file and change stuff like assembly name, description, etc. to fit your mod
+- Edit the `ID2ModTemplate.csproj` file and change the AssemblyName property to the name of your mod. This will automatically rename the `ID2ModTemplate.csproj` file (and the user file, if you created that already)
 - Edit the `manfiest.json` to fit your mod
 - Replace the `thumbnail.png` with a thumbnail that fits your mod
 - Edit `default.config.json` to add any options your mod will use. If no options are needed, you can leave this blank
