@@ -4,6 +4,7 @@
 		<TargetFramework>net35</TargetFramework>
 		<AssemblyName>ID2ModTemplate</AssemblyName>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>Latest</LangVersion>
 		<NoWarn>1701;1702;0436</NoWarn>
 	</PropertyGroup>
 	
