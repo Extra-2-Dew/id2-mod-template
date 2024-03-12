@@ -28,7 +28,7 @@ This is a template for building Ittle Dew 2 mods. It has all the necessary files
 - `default-config.json` contains any options your mod should have by default. If not empty, a `config.json` will be added to mod folder on first launch of the game that will have these default options in it
 - `thumbnail.png` is the thumbnail used to represent your mod. It will be displayed in (the future) mod manager
 - `NuGet.config` is necessary for BepInEx packages
-- [AssemblyName].csproj.user` contains user-specific path variables used for the project
+- `[AssemblyName].csproj.user` contains user-specific path variables used for the project
 - `Plugin.cs` is the initialization class. BepInEx will first run this class to initialize your mod
 
 ## Configuring Your Mod
