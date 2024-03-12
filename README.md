@@ -32,13 +32,13 @@ This is a template for building Ittle Dew 2 mods. It has all the necessary files
 - `Plugin.cs` is the initialization class. BepInEx will first run this class to initialize your mod
 
 ## Configuring Your Mod
-- Edit the `ID2ModTemplate.csproj` file and change the AssemblyName property to the name of your mod. This will automatically rename the `ID2ModTemplate.csproj` file (and the user file, if you created that already)
+- Edit the `ID2ModTemplate.csproj` file and change the `AssemblyName` property to the name of your mod. This will automatically rename the `ID2ModTemplate.csproj` file (and the user file, if you created that already)
 - Edit the `manfiest.json` to fit your mod
 - Replace the `thumbnail.png` with a thumbnail that fits your mod
 - Edit `default.config.json` to add any options your mod will use. If no options are needed, you can leave this blank
 - Edit or delete this `README.md`. It's strongly recommended to use a README for any mod you make to explain how it works
 
 ## Conventions
-- Keep all code files contained within the `Code` folder
+- Keep all classes contained within the `Code` folder
 - The `Plugin` class should never be renamed. This is BepInEx convention. This is the class that runs first when mod is initialized
     - Use the `Plugin` class only for initialization stuff
