@@ -1,0 +1,12 @@
+{
+	"name": "ID2ModTemplate",
+	"description": "A mod template for Ittle Dew 2 mods",
+	"version": "0.0.1",
+	"requires": [
+		"ModCore"
+	],
+	"conflicts": [
+
+	],
+	"github-url": ""
+}
